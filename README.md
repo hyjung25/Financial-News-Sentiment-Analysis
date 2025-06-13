@@ -6,6 +6,7 @@ The model is based on Hugging Face's bert-base-multilingual-cased and fine-tuned
 This project implements a multilingual BERT-based sentiment classifier for Korean news headlines and summaries. 
 It classifies news articles into one of three categories: positive, neutral, or negative. 
 The model is based on Hugging Face's bert-base-multilingual-cased and fine-tuned using PyTorch and the transformers library.
+The data was mined using various free APIs from financial news pages over a week.
 
 | Column Name     | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
