@@ -26,3 +26,6 @@ Result for the model
 | **Overall Accuracy** |           |        | **0.81** | **895** |
 | **Macro Avg**        |   0.78    |  0.76  |   0.77   |         |
 | **Weighted Avg**     |   0.81    |  0.81  |   0.81   |         |
+- The fine-tuned BERT model achieved **81% overall accuracy** on a custom financial news dataset.
+- It performed especially well on the 'neutral' and 'positive' classes.
+- Despite class imbalance, the model maintained strong performance across all categories.
