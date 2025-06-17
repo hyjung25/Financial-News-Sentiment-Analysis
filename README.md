@@ -17,3 +17,12 @@ The data was mined using various free APIs from financial news pages over a week
 | `sentiment`     | Original sentiment label (`positive`, `neutral`, `negative`) |
 | `label_encoded` | Encoded label: `positive=2`, `neutral=1`, `negative=0`       |
 
+Result for the model
+|        Class         | Precision | Recall | F1-Score | Support |
+|----------------------|-----------|--------|----------|---------|
+|     Negative (0)     |   0.71    |  0.63  |   0.67   |   79    |
+|     Neutral (1)      |   0.83    |  0.83  |   0.8    |   502   |
+|     Positive (2)     |   0.80    |  0.82  |   0.81   |   314   |
+| **Overall Accuracy** |           |        | **0.81** | **895** |
+| **Macro Avg**        |   0.78    |  0.76  |   0.77   |         |
+| **Weighted Avg**     |   0.81    |  0.81  |   0.81   |         |
